@@ -35,7 +35,7 @@
 
 <br/>
 
-**Developed by [shopeebjm](https://github.com/shopeebjm)For educational & authorized penetration testing only.**
+**Tools** Ini Hanya untuk keperluan `pendidikan` & `pengujian penetrasi` ~*resmi*~.
 
 </div>
 
@@ -43,10 +43,10 @@
 
 ## ⚠️ Disclaimer
 
-> **This tool is developed strictly for educational purposes and authorized penetration testing only.**  
-> The developer of Evil-Eye is **not responsible** for any misuse or damage caused by this program.  
-> Using this tool against any individual or system **without explicit written permission is illegal**.  
-> By using this tool, you agree that you are solely responsible for your actions.
+> Alat ini dikembangkan khusus untuk tujuan pendidikan dan pengujian penetrasi yang diizinkan saja.
+> Pengembang Evil-Eye tidak bertanggung jawab atas penyalahgunaan atau kerusakan apa pun yang disebabkan oleh program ini.
+> Menggunakan alat ini terhadap individu atau sistem apa pun tanpa izin tertulis yang jelas adalah ilegal.
+> Dengan menggunakan alat ini, Anda setuju bahwa Anda sepenuhnya bertanggung jawab atas tindakan Anda.
 
 ---
 
