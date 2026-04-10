@@ -29,13 +29,14 @@
 
 <br/>
 
-> A modern, modular camera phishing framework capable of silently capturing  
-> high-quality images from a target's webcam using social engineering templates  
-> and a Cloudflare encrypted tunnel.
+> Sebuah kerangka kerja phishing kamera modular modern yang mampu secara diam-diam menangkap
+gambar berkualitas tinggi
+>  dari webcam target menggunakan template rekayasa sosial
+dan terowongan terenkripsi Cloudflare.
 
 <br/>
 
-**Tools** Ini Hanya untuk keperluan `pendidikan` & `pengujian penetrasi` ~*resmi*~.
+**Tools** Ini Hanya untuk keperluan `pendidikan` & `pengujian` penetrasi ~*resmi*~.
 
 </div>
 
