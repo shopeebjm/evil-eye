@@ -16,7 +16,6 @@
 <!-- Replace with your actual logo -->
 <img src="/lib/imgs/evel-eye.png" alt="Evil-Eye Logo" width="160"/>
 
-<div align="center">
 
 # EVIL-EYE
 ### Silent Camera Capture Framework
