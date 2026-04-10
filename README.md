@@ -16,7 +16,7 @@
 <!-- Replace with your actual logo -->
 <img src="/lib/imgs/evel-eye.png" alt="Evil-Eye Logo" width="160"/>
 
-<br/>
+</div>
 
 # EVIL-EYE
 ### Silent Camera Capture Framework
@@ -27,7 +27,7 @@
 [![Shell](https://img.shields.io/badge/shell-bash-orange?style=flat-square)](#)
 [![PHP](https://img.shields.io/badge/php-7.4%2B-purple?style=flat-square)](#)
 
-<div align="left">
+<div 
   
 - Sebuah kerangka kerja phishing kamera modular modern yang mampu secara diam-diam menangkap
 gambar berkualitas tinggi
