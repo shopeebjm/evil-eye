@@ -35,7 +35,7 @@
 
 <br/>
 
-**Developed by [shopeebjm](https://github.com/shopeebjm) — For educational & authorized penetration testing only.**
+**Developed by [shopeebjm](https://github.com/shopeebjm)For educational & authorized penetration testing only.**
 
 </div>
 
