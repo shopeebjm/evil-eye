@@ -1,5 +1,5 @@
 #!/bin/bash
-# RGSecurityTeam - Evil-Eye
+# shopeebjm - Evil-Eye
 # encoding (utf-8 en)
 
 #────────────────────────────────── Evil-Eye ──────────────────────────────────#
@@ -8,12 +8,12 @@
 # high-quality images of the victim's camera.                                  #
 #──────────────────────────────────────────────────────────────────────────────#
 # DISCLAIMER: This tool is developed for educational purposes and authorized   #
-# penetration testing only. The developer (RGSecurityTeam) is not responsible  #
+# penetration testing only. The developer (shopeebjm) is not responsible       #
 # for any misuse or damage caused by this program.                             #
 #──────────────────────────────────────────────────────────────────────────────#
 # This is inspired by techchip's champhish script                              #
 #                                                                              #
-#─────────────────────────────── RGSecurityTeam ───────────────────────────────#
+#─────────────────────────────── shopeebjm ───────────────────────────────#
 
 # Colors
 red="$(printf '\033[1;31m')"
