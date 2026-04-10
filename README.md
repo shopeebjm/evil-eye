@@ -36,8 +36,6 @@ dan terowongan terenkripsi Cloudflare.
 
 **Tools** Ini Hanya untuk keperluan `pendidikan` & `pengujian` penetrasi  ~*resmi*~.
 
-</div>
-
 ---
 
 ## ⚠️ Disclaimer
