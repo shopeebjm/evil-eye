@@ -18,7 +18,7 @@
 
 
 # EVIL-EYE
-### Silent Camera Capture Framework
+### Kerangka Kerja Pengambilan Gambar Kamera Senyap
 
 [![Version](https://img.shields.io/badge/version-0.1-red?style=flat-square)](https://github.com/RGSecurityTeam/evil-eye)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
@@ -51,45 +51,56 @@ dan terowongan terenkripsi Cloudflare.
 
 ## ✨ Features
 
-| Feature | Description |
+| Fitur | Keterangan |
 |---|---|
-| 📷 **Silent Camera Capture** | Captures images from the target's front camera via browser's `getUserMedia` API |
-| 🌐 **Cloudflare Tunnel** | Instantly generates a public HTTPS link — no port forwarding needed |
-| 🎭 **5 Lure Templates** | YouTube Live, Birthday Wish, Secret Message, Fake Instagram, AI Chatbot |
-| 📍 **IP & UA Logging** | Logs victim's IP address and browser user-agent on link open |
-| 🔧 **Auto Dependency Install** | Detects and installs missing tools automatically on first run |
-| 🖥️ **Cross-Distro Support** | Kali Linux, Termux, Parrot OS, Ubuntu, macOS — auto-detects OS and architecture |
+| 📷 **Tangkapan Kamera Senyap** | Mengambil Gambar Dari Kamera Depan Target Melalui `getUserMedia` API Browser|
+| 🌐 **Cloudflare Tunnel** | Langsung Menghasilkan Tautan HTTPS Publik — Tidak Perlu Penerusan Port |
+| 🎭 **5 Templates Umpan** | YouTube Live, Birthday Wish, Secret Message, Fake Instagram, AI Chatbot |
+| 📍 **Pencatan IP & UA** | Mencatat Alamat IP Korban - Agent Browser Saat Tautan Dibuka  |
+| 🔧 **Installasi Dependensi Otomatis** | Mendeteksi Dan Menginstall Alat Yang Hilang Secara Otomatis Saat Pertama Kali Dijalankan |
+| 🖥️ **Dukungan Lintas-Distro** | Kali Linux, Termux, Parrot OS, Ubuntu, macOS — Mendeteksi Sistem Operasi Dan Arsitektur Secara Otomatis |
 
 ---
 
-## 📋 Requirements
+## 📋 Persyaratan
 
-### Operating System
+### Sistem Operasi
 - Kali Linux
 - Parrot OS
 - Ubuntu / Debian
 - macOS (with Homebrew)
 - Termux (Android)
 
-### Dependencies
+  Untuk Operasi Sistem Termux,Pasang Aplikasi Termux Di Android Terlebih Dahulu!! Tetapi Untuk Aplikasi Termux Jangan Di Unduh Di Playstore Karena Bisa Menyebabkan Error
 
-| Tool | Purpose | Install |
+<h2 align="center">
+
+Unduh Aplikasi Termux Nya Dibawah Ini:
+
+👇👇
+  
+[![termux](https://img.shields.io/badge/termux-71-yellow.svg?style=flat)](https://sfile.co/eZK8yBBtOiv)
+
+
+### Ketergantungan
+
+| Alat | Tujuan | Installasi |
 |---|---|---|
-| `php` | Built-in web server | *Auto-installed on first run*  |
-| `curl` | Network requests & health checks | *Auto-installed on first run*  |
-| `wget` | Download cloudflared binary | *Auto-installed on first run*  |
-| `jq` | JSON processing for templates | *Auto-installed on first run*  |
-| `cloudflared` | Public HTTPS tunnel | *Auto-downloaded on first run* |
-| `lolcat` | Colorful terminal banners | *Auto-installed on first run* |
+| `php` | Server Web Terintegrasi | *Auto-installed on first run*  |
+| `curl` | Permintaan jaringan & Pemeriksaan Kesehatan | *Auto-installed on first run*  |
+| `wget` | Unduh Biner Cloudflared | *Auto-installed on first run*  |
+| `jq` | Pemprosesan JSON Untuk Template | *Auto-installed on first run*  |
+| `cloudflared` | Tunnel HTTPS Publik | *Auto-downloaded on first run* |
+| `lolcat` | Spanduk Terminal Berwarna-Warni | *Auto-installed on first run* |
 
 ---
 
-## 🚀 Installation
+## 🚀 Installasi
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/rgsecteam/evil-eye.git
+git clone https://github.com/shopeebjm/evil-eye.git
 ```
 
 ### 2. Go to **evil-eye** Directory
@@ -104,10 +115,10 @@ cd evil-eye
 ./evel.sh
 ```
 
-> `cloudflared` and `lolcat` will be installed automatically if not found.
+> `cloudflared` dan `lolcat` Akan Diinstall Secara Otomatis Jika Tidak DiTemukan.
 
 ---
-## 🚀 Termux Setup 
+## 🚀 Pengaturan Termux 
 ### Install ca-certificates
 ```bash
 pkg update && pkg install ca-certificates -y
@@ -116,59 +127,59 @@ pkg update && pkg install ca-certificates -y
 ```bash
 export SSL_CERT_FILE=$PREFIX/etc/tls/cert.pem
 ```
-> **install and setup this `ca-certificates.` If this is not enabled, the `cloudflare` tunnel will not start.**
+> **install Dan Atur Ini `ca-certificates.` Jika Ini Tidak Di Aktifkan, the `cloudflare` Tunnel Tidak Akan dimulai.**
 
 ## 🎭 Templates
 
 <details>
 <summary><b>[01] YouTube Live TV</b></summary>
 
-Presents a fake YouTube Live stream page. Prompts the victim to allow camera access to "verify their age" or "enable interactive mode". You provide any YouTube video link which plays embedded on the page.
+Menampilkan Halaman Siaran Langsung YouTube Palsu. Meminta Korban Untuk Mengizinkan Akses Kamera Untuk "Untuk Memverifikasi Usia Mereka" Atau "Mengaktifkan Mode Interaktif". Anda Memberikan Tautan Video YouTube Apapun Yang Diputar Tersemat Dihalaman Tersebut.
 
 </details>
 
 <details>
 <summary><b>[02] Birthday Wish</b></summary>
 
-A personalized birthday celebration page with animations, balloons, cake, and music. The victim's name is embedded in the page. Camera permission is requested to "take a birthday selfie".
+Halaman Perayaan Ulang Tahun Yang Dipersonilisasi Dengan Animasi,Balon,Kue Dan Musik.Nama Korban Disematkan Dihalaman Tersebut.Izin Kamera Diminta Untuk "Mengmbil Photo Selfie Ulang Tahun".
 
 </details>
 
 <details>
 <summary><b>[03] Secret Message</b></summary>
 
-A mysterious page that claims to have a secret message for the target. You provide a `.txt` file with the message content which is loaded as a JSON data source. Camera access is triggered in the background.
+Sebuah Halaman Misterius Yang Mengklaim Memiliki Pesan Rahasia Untuk Target.Anda Menyediakan `.txt` file Berisi Konten Pesan Yang Dimuat Sebagai Sumber Data JSON.Akses Kamera Dipicu Di Latar Belakang.
 
 </details>
 
 <details>
 <summary><b>[04] Fake Instagram Followers</b></summary>
 
-A convincing fake page promising free Instagram followers. Victim is told camera verification is required to "prove they are human".
+Sebuah Halaman Palsu Yang Meyakinkan Menjanjikan Pengikut Instagram Gratis.Korban Diberitahu Bahwa Verifikasi Kamera Diperlukan Untuk "Membuktikan Bahwa Mereka Adalah Manusia ".
 
 </details>
 
 <details>
 <summary><b>[05] AI Chatbot (Fake AI)</b></summary>
 
-A fake AI assistant chat interface. Camera access is requested in the background while the victim interacts with the chat.
+AntarMuka Obrolan Asisten AI Palsu.Akses Kamera Diminta Dilatar Belakang Saat Korban Berinteraksi Dengan Obrolan
 
 </details>
 
 ---
 
-### Where is captured data saved?
+### Dimana Data Yang Diambil Disimpan?
 
-| Data | Location |
+| Data | Lokasi |
 |---|---|
-| Camera images | `captured_imgs/cam<timestamp>.jpg` |
-| IP addresses | `captured_ip.txt` |
+| Gambar Kamera | `captured_imgs/cam<timestamp>.jpg` |
+| Alamat IP | `captured_ip.txt` |
 
 ---
 
-## 🌐 Tested On
+## 🌐 Telah Diuji Pada
 
-| OS | Version | Status |
+| Sistem Operasi | Versi | Status |
 |---|---|---|
 | Kali Linux | 2024.x | ✅ Working |
 | Termux | 0.118.x | ✅ Working |
