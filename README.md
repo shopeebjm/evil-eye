@@ -114,6 +114,7 @@ cd evil-eye
 ```bash
 ./evel.sh
 ```
+- Jika Tidak Work,Sebelum Gunakan Perintah `./evel.sh` Kalian Gunakan Perintah Ini Terlebih Dahulu `chmod +x evel.sh`
 
 > `cloudflared` dan `lolcat` Akan Diinstall Secara Otomatis Jika Tidak DiTemukan.
 
